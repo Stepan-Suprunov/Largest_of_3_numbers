@@ -16,6 +16,11 @@ if (NumB>NumC){
     NumC = NumB;
     NumB = Mem;
 }
+if (NumB < NumA){
+    Mem = NumA;
+    NumA = NumB;
+    NumB = Mem;
+}
 //Мониторинг
 Console.WriteLine("___");
 Console.WriteLine(NumA);
